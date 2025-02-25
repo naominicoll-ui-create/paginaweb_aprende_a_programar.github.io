@@ -1,0 +1,123 @@
+/* Fondo  */
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+/* Texto principal */
+h1, h2, h3, h4, h5, h6, p {
+    color: #000000;
+}
+
+/* Colores de la sintaxis */
+.keyword {
+    color: #Ff1493;
+}
+
+.operator {
+    color: #F8F8F2;
+}
+
+.comment {
+    color: #75715E;
+}
+
+.string {
+    color: #E6DB74;  /* Cadenas de texto en amarillo suave */
+}
+
+.number {
+    color: #AE81FF;
+}
+
+.function {
+    color: #66D9EF;
+}
+
+.variable {
+    color: #A6E22E;
+}
+
+.background {
+    background-color: #3E3D32;
+}
+
+button {
+    background-color: #Ff1493;
+    color: #F8F8F2;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F6C6E0;
+}
+
+/* Enlaces */
+a {
+    color: #FF0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Fondo de las zonas de código */
+code {
+    background-color: #3E3D32;
+    padding: 5px;
+    border-radius: 3px;
+    color: #F8F8F2;
+}
+
+@keyframes deslizar {
+    from {
+    opacity: 0;
+    transform: translateX(-100px);
+    }
+    to {
+    opacity: 1;
+    transform: translateX(0);
+    }
+}
+
+titulo {
+    font-size: 36px;
+    color: #9F81F7;
+    animation: deslizar 1.5s ease-out;
+}
+/* Botón de envío */
+.submit-btn {
+    background-color: #00BCD4;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0097A7;
+}
+
+/* Contenedor de preguntas */
+.question {
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.question p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.answer input {
+    margin-right: 10px;
+}

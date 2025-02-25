@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introduccion a la programación</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <style>
+        /* Fondo de la página */
+        body {
+            background-color: #D3D3D3;
+            color: #333333;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16px;
+        }
+
+        /* Estilo del encabezado */
+        header {
+            background-color: #DAA520; 
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px; /* Tamaño de la fuente del encabezado */
+        }
+
+        /* Estilo del menú de navegación */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px; /* Tamaño de la fuente en el menú */
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+
+    <div class="header">
+        <h1>Introducción a la Programación</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="introduccion.html">Introducción a la Programación</a></li>
+            <li><a href="estructurada.html">Programación Estructurada</a></li>
+            <li><a href="poo.html">Programación Orientada a Objetos</a></li>
+            <li><a href="recursos.html">Recursos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="quiz.html">Prueba de Conocimientos</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <div class="content">
+        <h1 style="color: #FF1493;">Introducción</h1>
+
+        <p style="color: #FF0000;">Historia de la Programación</p>
+        <p>Ada Byron, condesa de Lovelace, fue la primera programadora de computadoras. Autodidacta en matemáticas, trabajó con Charles Babbage en la máquina analítica, una calculadora mecánica diseñada para realizar cálculos complejos. Ada desarrolló el primer conjunto de instrucciones para esta máquina, lo que hoy se conoce como un programa de computadora. Sin embargo, debido a la tecnología de la época, nunca pudo ver funcionar su programa.
+            <hr>
+            <p style="color: #FF0000;">Evolución del Hardware y Software</p>
+            
+            A medida que el hardware evolucionó, la forma de programar también cambió. 
+            <li>las computadoras como ENIAC y EDVAC almacenaban información en dígitos binarios (0 y 1).</li>
+            <li>Las primeras instrucciones de programación se componían de códigos binarios largos y complejos, requiriendo meses de trabajo y generando numerosos errores.</li>
+            <hr>
+            <p style="color: #FF0000;">Lenguajes de Ensamblaje (1950)</p>
+            
+            Los lenguajes de ensamblaje permitieron a los programadores escribir instrucciones con símbolos y letras en lugar de códigos binarios. 
+            <li>Un ensamblador traducía estas instrucciones en lenguaje de máquina.</li>
+            <li>Aunque facilitaban la programación, seguían siendo dependientes del hardware, ya que cada lenguaje de ensamblaje era diseñado para una marca y modelo específico de procesador.</li>
+            <hr>
+            <p style="color: #FF0000;">Lenguajes de Alto Nivel</p>
+            
+            Para facilitar la programación, surgieron los lenguajes de alto nivel, los cuales requieren un traductor (compilador o intérprete) para convertir el código en lenguaje de máquina. 
+            <li>Estos lenguajes permitieron que los programas fueran más comprensibles y ejecutables en diferentes computadoras.</li>
+            <hr>
+            <p style="color: #FF0000;">Diferencias entre compilador e intérprete:</p>
+            
+            <li>Compilador: Traduce el programa completo antes de ejecutarlo</li>
+            
+            Intérprete: Traduce y ejecuta el programa línea por línea.
+            <hr>
+            <p style="color: #FF0000;">Hitos Importantes en la Programación
+            </p>
+            1954: John Backus lidera el desarrollo de FORTRAN (Formula Translator), utilizado en cálculos matemáticos y científicos.
+            
+            <li>1957: John McCarthy desarrolla LISP, diseñado para inteligencia artificial.</li>
+            
+            <li>1959: Grace Murray Hopper contribuye a la creación de COBOL, orientado al procesamiento de datos de negocios.</li>
+            
+            <li>1960: Seymour Papert desarrolla LOGO, utilizado en la educación infantil.</li>
+            
+            <li>1964: John Kemeny y Thomas Kurtz crean BASIC, un lenguaje sencillo para enseñanza.</li>
+            
+            <li>1970: Dennis Ritchie y Brian Kernighan desarrollan C en Bell Labs, utilizado para programar sistemas operativos como UNIX y Linux.</li>
+            <hr>
+            <p style="color: #FF0000;">Consideraciones sobre los Lenguajes de Programación</p>
+            
+            Los lenguajes de programación son sistemas de comunicación formal utilizados en el desarrollo de software.
+            <li>A diferencia de los lenguajes naturales, estos son precisos y están regidos por un conjunto estricto de reglas.</li>
+            
+            Un lenguaje de programación debe ser:
+            
+            Universal: Debe permitir programar soluciones para cualquier problema.
+            
+            <li>Implementable en una computadora: Debe poder ejecutarse en cualquier máquina.</li>
+            <hr>
+            <p style="color: #FF0000;">Desarrollo de los Lenguajes de Programación</p>
+            
+            <p style="color: #FFA500;">Lenguaje de Máquina:</p>
+            
+            <li>Usa dígitos binarios (0 y 1).</li>
+                <li>Depende del modelo de la computadora.</li>
+                
+                <li>Difícil de programar.</li>
+            
+            <p style="color: #FFA500;">Lenguaje Ensamblador:</p>
+            
+            <li>Usa símbolos mnemotécnicos en lugar de binario.</li>
+            <li>Facilita la programación, pero sigue siendo dependiente del hardware.</li>
+    
+            
+            <p style="color: #FFA500;">Lenguajes Simbólicos:</p>
+            
+            <li>Permiten el uso de nombres en lugar de direcciones de memoria.</li>
+            
+            <li>Aún dependen del tipo de procesador.</li>
+            
+            <p style="color: #FFA500;">Lenguajes de Alto Nivel:</p>
+            
+            <li>Independientes del hardware.</li>
+            <li>Programación más legible y sencilla.</li>
+            
+            Ejemplos: FORTRAN, COBOL, BASIC.
+            
+            <p style="color: #FFA500;">Lenguajes de Tercera Generación:</p>
+            
+            Introducen la programación estructurada.
+            
+            Ejemplos: Pascal, C, Ada.
+            
+            <p style="color: #FFA500;">Lenguajes Orientados a Objetos:</p>
+            
+            Basados en el concepto de objetos y clases.
+            
+            Ejemplos: Smalltalk, C++, Java.
+            
+            <p style="color: #FFA500;">Lenguajes Especializados:</p>
+            
+            Diseñados para propósitos específicos.
+            
+            Ejemplos: LISP (Inteligencia Artificial), Prolog (Lógica computacional).
+            
+            <p style="color: #FFA500;">Lenguajes de Cuarta Generación:</p>
+            
+            Mayor abstracción, sin necesidad de algoritmos complejos.
+            
+                    Utilizados en sistemas de procesamiento de información.
+                    <hr>
+                    <p style="color: #FF0000;">Comunicación</p>
+            La comunicación es un proceso complejo que requiere una serie de reglas simples, pero indispensables para poderse llevar a cabo. 
+            <p>Las dos principales son las siguientes:</p>
+            
+            <li>Los mensajes deben correr en un sentido a la vez.</li>
+            <li>Debe forzosamente existir cuatro elementos: Emisor, Receptor, Medio de Comunicación y Mensaje.</li>
+            <hr>
+            <p style="color: #FF0000;">Lenguajes de programación vs Lenguaje natural</p>
+            Un lenguaje es un estilo y modo de hablar y escribir de cada persona en particular. Es una serie de símbolos que sirven para transmitir uno o más mensajes (ideas) entre dos entidades diferentes. Un lenguaje lo usamos entre humanos para comunicarnos, expresar nuestros sentimientos, o incluso de forma colaborativa para llegar a un fin. En las computadoras, nosotros usamos un lenguaje de programación para decirle qué hacer y cómo hacerlo a través de qué recursos. Algunos lenguajes permiten ser específicos con las instrucciones.
+            <hr>
+            <p style="color: #FF0000;">Gramática</p>
+            <p>La gramática responde a qué palabras o frases son correctas.</p>
+            Analiza cómo están estructuradas las oraciones y palabras/tokens para que el intérprete las pueda entender correctamente.
+            <p>- Secuencias y símbolos que forman palabras válidas</p>
+            <p>- Sintaxis para formar frases del lenguaje</p>
+            <hr>
+            <p style="color: #FF0000;">Sintaxis</p>
+            La sintaxis de un lenguaje de programación está relacionada con la forma de los programas, como las expresiones, comandos y declaraciones.
+            <p>La sintaxis de un lenguaje influye en cómo los programas son escritos por el programador, leídos por otro programador y traducidos por la computadora.</p>
+            
+            - Reglas sintácticas: Definen reglas de mayor complejidad mediante la combinación de elementos léxicos (por ejemplo: a = a + 1).
+            <p>- Elementos: Alfabeto, identificadores, palabras reservadas, espacios en blanco, símbolos de operadores, expresiones, delimitadores de código y comentarios.</p>
+            - Metalenguajes: Se encargan de definir las reglas que establecen cómo se deben combinar los símbolos y elementos de un lenguaje de programación.
+            
+            Es deseable que la sintaxis de un lenguaje sea de fácil lectura, escritura y análisis en busca de errores, y que no posea ambigüedades.
+            <hr>
+            <p style="color: #FF0000;">Semántica</p>
+            La semántica de un lenguaje de programación está relacionada con el significado de los programas y cómo se comportarán cuando se ejecuten en una computadora.
+            <p>Determina cómo los programas son compuestos por el programador, entendidos por otros programadores e interpretados por la computadora.
+        </p>
+            - Reglas léxicas: Definen el conjunto de caracteres del lenguaje y cómo se combinan para formar sentencias válidas.
+            <p>- Significado según el contexto: La sintaxis no tiene en cuenta el contexto, mientras que la semántica sí lo hace.</p>
+            - Chequeo de tipos de datos: Determina si los tipos de datos utilizados son compatibles entre sí.
+            <hr>
+            <p style="color: #FF0000;">Semántica en Java</p>
+            Existen diversos lenguajes de programación, tales como Java, JavaScript, Python, C#, PHP, C/C++, entre otros. Java es un lenguaje orientado a objetos ampliamente utilizado por sus características de uso genérico y fácil adaptabilidad. Su principio es "escribir una vez, ejecutar en cualquier parte".
+            <hr>
+            <p style="color: #FF0000;">Pragmática</p>
+            La pragmática responde a cómo usamos un lenguaje. En programación, esto implica escribir código que tenga sentido y sea interpretable correctamente por la computadora.
+            
+            <p>- Interpretación y significado de las instrucciones dadas.</p>
+            - Implementación: Transformación de instrucciones en acciones concretas.
+            <hr>
+            <p style="color: #FF0000;">Lenguajes de Programación</p>
+            Un lenguaje de programación es un idioma artificial diseñado para ser usado en las computadoras. Son capaces de controlar el comportamiento físico y lógico de una máquina y además sirven de interfaz con el usuario. Como las computadoras solo entienden lenguaje máquina (0 y 1), los lenguajes de alto nivel requieren:
+            
+            <p>- Intérpretes: Traducen los lenguajes de alto nivel a código de máquina a medida que encuentran las instrucciones. Ejemplo: navegadores web.</p>
+            <p>- Compiladores: Traducen un programa completo antes de ejecutar las instrucciones.</p>
+            <hr>
+            <p style="color: #FF0000;">Lenguaje de alto nivel</p>
+            Utiliza sintaxis y estructuras fáciles de entender con palabras del lenguaje natural. Necesitan de un intérprete o compilador para traducirse a lenguaje de bajo nivel. Ejemplos: C++, Java, Python, PHP.
+            <hr>
+            <p style="color: #FF0000;">Traductores de lenguajes</p>
+            Como los procesadores solo entienden instrucciones en lenguaje máquina, el código fuente debe ser traducido. 
+        
+            <p>Esto se hace mediante:</p>
+            <Li>Compilador: Traduce todo el programa de una vez y genera un archivo ejecutable.</Li>
+            <li>Intérprete:Traduce y ejecuta el código línea por línea sin generar un archivo ejecutable. Ejemplos: Python, PHP, JavaScript.
+                        
+        
+
+</body>
+</html>

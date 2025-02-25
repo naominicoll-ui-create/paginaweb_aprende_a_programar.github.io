@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Contenedor del video */
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        /* Video ocupa toda la pantalla */
+        .video-container video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Contenido sobre el video */
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            font-size: 2rem;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        /* Botón de Iniciar */
+        .btn {
+            text-decoration: none;
+            background: #9F81F7;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            transition: 0.3s;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background: #D8D8D8;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-container">
+        <video autoplay muted loop>
+            <source src="cc0b71b1-baa3-4606-bc07-74bbe3299b57.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="content">
+        <h1>Bienvenido a mi página web</h1>
+        <a href="introduccion.html" class="btn">Iniciar</a>
+    </div>
+
+</body>
+</html>

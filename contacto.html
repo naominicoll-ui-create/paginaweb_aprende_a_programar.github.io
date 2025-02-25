@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        /* Fondo de la página */
+        body {
+            background-color: ;
+            color: #333333;
+            font-family: Arial, sans-serif;
+            font-size: 16px; /* Tamaño base de fuente */
+        }
+
+        /* Estilo del encabezado */
+        header {
+            background-color: #DAA520; 
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px; /* Tamaño de la fuente del encabezado */
+        }
+
+        /* Estilo del menú de navegación */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px; /* Tamaño de la fuente en el menú */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <ul>
+                <li><a href="introduccion.html">Introducción a la Programación</a></li>
+                <li><a href="estructurada.html">Programación Estructurada</a></li>
+                <li><a href="poo.html">Programación Orientada a Objetos</a></li>
+                <li><a href="recursos.html">Recursos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="quiz.html">Prueba de Conocimientos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Formulario de Contacto</h1>
+        <form action="submit_form.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</body>
+</html>
+
+
+

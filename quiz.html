@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        /* Fondo de la página */
+        body {
+            background-color: #D3D3D3;
+            color: #333333;
+            font-family: Arial, sans-serif;
+            font-size: 16px; /* Tamaño base de fuente */
+        }
+
+        /* Estilo del encabezado */
+        header {
+            background-color: #DAA520; /* Turquesa */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px; /* Tamaño de la fuente del encabezado */
+        }
+
+        /* Estilo del menú de navegación */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px; /* Tamaño de la fuente en el menú */
+        }
+        
+    </style>
+
+</head>
+<body>
+    <header>
+
+    <div class="header">
+        <h1>Prueba de Conocimientos</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="introduccion.html">Introducción a la Programación</a></li>
+            <li><a href="estructurada.html">Programación Estructurada</a></li>
+            <li><a href="poo.html">Programación Orientada a Objetos</a></li>
+            <li><a href="recursos.html">Recursos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="quiz.html">Prueba de Conocimientos</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <div class="content">
+        <h3 style="color: #FF1493;">Prueba tus conocimientos</h3>
+        <section id="question"></section>
+        <div class="question-container" id="q1">
+            <p>1. ¿Qué significa HTML?</p>
+            <div class="answer">
+                <input type="radio" name="q1" value="a"> a) Hypertext Markup Language<br>
+                <input type="radio" name="q1" value="b"> b) Hightext Markup Language<br>
+                <input type="radio" name="q1" value="c"> c) Hyperlinks and Text Markup Language<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>2. ¿Cuál es la principal función de un bucle en programación?</p>
+            <div class="answer">
+                <input type="radio" name="q2" value="a"> a) Repetir una acción mientras se cumpla una condición<br>
+                <input type="radio" name="q2" value="b"> b) Ejecutar una función una sola vez<br>
+                <input type="radio" name="q2" value="c"> c) Crear variables dentro del código<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>3. ¿Qué es un algoritmo?</p>
+            <div class="answer">
+                <input type="radio" name="q3" value="a"> a) Una secuencia de pasos bien definidos para resolver un problema<br>
+                <input type="radio" name="q3" value="b"> b) Un tipo de variable en programación<br>
+                <input type="radio" name="q3" value="c"> c) Un lenguaje de programación<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>4. ¿Qué significa POO en programación?</p>
+            <div class="answer">
+                <input type="radio" name="q4" value="a"> a) Programación Orientada a Objetos<br>
+                <input type="radio" name="q4" value="b"> b) Programación Objetiva Operacional<br>
+                <input type="radio" name="q4" value="c"> c) Procedimiento Operacional de Objetos<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>5. ¿Qué es una variable en programación?</p>
+            <div class="answer">
+                <input type="radio" name="q5" value="a"> a) Un tipo de función<br>
+                <input type="radio" name="q5" value="b"> b) Un espacio de memoria donde se almacenan datos<br>
+                <input type="radio" name="q5" value="c"> c) Una estructura de control<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>6. ¿Qué es el debugging?</p>
+            <div class="answer">
+                <input type="radio" name="q6" value="a"> a) Proceso de encontrar y corregir errores en el código<br>
+                <input type="radio" name="q6" value="b"> b) Proceso de compilar el código<br>
+                <input type="radio" name="q6" value="c"> c) Proceso de crear un archivo ejecutable<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>7. ¿Qué es una función en programación?</p>
+            <div class="answer">
+                <input type="radio" name="q7" value="a"> a) Un bloque de código que realiza una tarea específica<br>
+                <input type="radio" name="q7" value="b"> b) Una variable global<br>
+                <input type="radio" name="q7" value="c"> c) Un tipo de dato primitivo<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>8. ¿Cuál es la principal diferencia entre un lenguaje compilado y uno interpretado?</p>
+            <div class="answer">
+                <input type="radio" name="q8" value="a"> a) Los lenguajes compilados convierten el código a lenguaje de máquina antes de ejecutarse<br>
+                <input type="radio" name="q8" value="b"> b) Los lenguajes compilados se ejecutan línea por línea<br>
+                <input type="radio" name="q8" value="c"> c) No hay diferencias<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>9. ¿Qué es un array en programación?</p>
+            <div class="answer">
+                <input type="radio" name="q9" value="a"> a) Un tipo de variable que puede almacenar varios valores<br>
+                <input type="radio" name="q9" value="b"> b) Una función que ordena datos<br>
+                <input type="radio" name="q9" value="c"> c) Un algoritmo de búsqueda<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>10. ¿Qué es la recursión?</p>
+            <div class="answer">
+                <input type="radio" name="q10" value="a"> a) Una función que se llama a sí misma<br>
+                <input type="radio" name="q10" value="b"> b) Un tipo de bucle infinito<br>
+                <input type="radio" name="q10" value="c"> c) Un algoritmo que ordena datos<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>11. ¿Qué es un objeto en programación orientada a objetos?</p>
+            <div class="answer">
+                <input type="radio" name="q11" value="a"> a) Una instancia de una clase que contiene datos y métodos<br>
+                <input type="radio" name="q11" value="b"> b) Un tipo de variable<br>
+                <input type="radio" name="q11" value="c"> c) Un conjunto de funciones<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>12. ¿Qué es una clase en programación orientada a objetos?</p>
+            <div class="answer">
+                <input type="radio" name="q12" value="a"> a) Un tipo de variable global<br>
+                <input type="radio" name="q12" value="b"> b) Un plano o plantilla para crear objetos<br>
+                <input type="radio" name="q12" value="c"> c) Un tipo de ciclo<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>13. ¿Qué hace la instrucción return en una función?</p>
+            <div class="answer">
+                <input type="radio" name="q13" value="a"> a) Finaliza la ejecución de la función y devuelve un valor<br>
+                <input type="radio" name="q13" value="b"> b) Llama otra función<br>
+                <input type="radio" name="q13" value="c"> c) Imprime el valor de la función<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>14. ¿Qué significa "IDE" en programación?</p>
+            <div class="answer">
+                <input type="radio" name="q14" value="a"> a) Integrated Development Environment<br>
+                <input type="radio" name="q14" value="b"> b) Intelligent Design Editor<br>
+                <input type="radio" name="q14" value="c"> c) Interoperable Development Engine<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>15. ¿Qué es un "commit" en un sistema de control de versiones?</p>
+            <div class="answer">
+                <input type="radio" name="q15" value="a"> a) Un cambio registrado en el repositorio<br>
+                <input type="radio" name="q15" value="b"> b) Una versión final del proyecto<br>
+                <input type="radio" name="q15" value="c"> c) Un archivo comprimido del proyecto<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>16. ¿Qué es una variable global?</p>
+            <div class="answer">
+                <input type="radio" name="q16" value="a"> a) Una variable accesible en todo el código<br>
+                <input type="radio" name="q16" value="b"> b) Una variable solo accesible dentro de una función<br>
+                <input type="radio" name="q16" value="c"> c) Una constante en el código<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>17. ¿Qué es la sobrecarga de métodos?</p>
+            <div class="answer">
+                <input type="radio" name="q17" value="a"> a) Definir múltiples métodos con el mismo nombre pero diferentes parámetros<br>
+                <input type="radio" name="q17" value="b"> b) Un tipo de error en el código<br>
+                <input type="radio" name="q17" value="c"> c) Llamar a un método dentro de otro<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>18. ¿Qué es un "if" en programación?</p>
+            <div class="answer">
+                <input type="radio" name="q18" value="a"> a) Una estructura de control condicional<br>
+                <input type="radio" name="q18" value="b"> b) Una función que realiza cálculos<br>
+                <input type="radio" name="q18" value="c"> c) Una variable de tipo booleano<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>19. ¿Qué hace la instrucción else en un bloque condicional?</p>
+            <div class="answer">
+                <input type="radio" name="q19" value="a"> a) Ejecuta el bloque de código cuando la condición del if es falsa<br>
+                <input type="radio" name="q19" value="b"> b) Finaliza el bloque condicional<br>
+                <input type="radio" name="q19" value="c"> c) Llama a otra función<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>20. ¿Qué es un archivo .py?</p>
+            <div class="answer">
+                <input type="radio" name="q20" value="a"> a) Un archivo de código fuente en Python<br>
+                <input type="radio" name="q20" value="b"> b) Un archivo de imagen<br>
+                <input type="radio" name="q20" value="c"> c) Un archivo de texto plano<br>
+            </div>
+        </div>
+</head>
+<body>
+    <header>
+
+        <button type="button" class="submit-btn" onclick="checkAnswers()">Enviar Respuestas</button>
+    </div>
+
+    <script>
+        function checkAnswers() {
+            // Respuestas correctas
+            const correctAnswers = {
+                q1: "a",
+                q2: "a",
+                q3: "a",
+                q4: "a",
+                q5: "b",
+                q6: "a",
+                q7: "a",
+                q8: "a",
+                q9: "a",
+                q10: "a",
+                q11: "a",
+                q12: "b",
+                q13: "a",
+                q14: "a",
+                q15: "a",
+                q16: "a",
+                q17: "a",
+                q18: "a",
+                q19: "a",
+                q20: "a"
+            };
+
+            let score = 0;
+
+            // Comprobar las respuestas
+            for (let question in correctAnswers) {
+                const selectedAnswer = document.querySelector(`input[name="${question}"]:checked`);
+                if (selectedAnswer && selectedAnswer.value === correctAnswers[question]) {
+                    score++;
+                }
+            }
+
+            // Mostrar la puntuación
+            alert(`Tu puntuación es: ${score} de ${Object.keys(correctAnswers).length}`);
+        }
+    </script>
+</body>
+</html>

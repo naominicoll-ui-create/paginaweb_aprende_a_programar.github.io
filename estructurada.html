@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programación Estructurada</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <style>
+        /* Fondo de la página */
+        body {
+            background-color: #D3D3D3;
+            color: #333333;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16px; /* Tamaño base de fuente */
+        }
+
+        /* Estilo del encabezado */
+        header {
+            background-color: #00BCD4; /* Turquesa */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px; /* Tamaño de la fuente del encabezado */
+        }
+
+        /* Estilo del menú de navegación */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px; /* Tamaño de la fuente en el menú */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Programación Estructurada</h1>
+        <nav>
+            <ul>
+                <li><a href="introduccion.html">Introducción a la Programación</a></li>
+                <li><a href="poo.html">Programación Orientada a Objetos</a></li>
+                <li><a href="recursos.html">Recursos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="quiz.html">Prueba de Conocimientos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 style="color: #FF1493;">Fundamentos de la Programación Estructurada</h1>
+            
+            La programación estructurada es una forma de escribir programas de computadora que comenzó a ser muy popular a partir de 1995. Su objetivo es que el código que se escribe sea fácil de entender y seguir. Es como dar instrucciones claras para hacer una tarea paso a paso. Cuando un programador lee el código, puede comprender cómo funciona el programa, lo que facilita su trabajo.
+            La programación estructurada nació para hacer más fácil la vida de los programadores. Antes, cuando alguien creaba un programa y necesitaba mejorarlo o arreglarlo, podía ser un gran problema porque el código era un enredo difícil de entender.
+
+En 1966, dos expertos llamados Böhm y Jacopini descubrieron que cualquier programa se puede hacer usando solo tres tipos de instrucciones. Esto fue increíble porque permitió escribir programas más simples y fáciles de probar.
+
+Luego, en 1968, un científico llamado Edsger Dijkstra escribió un artículo muy famoso en el que dijo que usar la instrucción "Goto" era una mala idea. Él ayudó a crear un lenguaje llamado Algol 60, que organizaba mejor los programas. Gracias a su trabajo, los lenguajes de programación se volvieron más ordenados y fáciles de entender.
+
+Hoy en día, la programación estructurada es muy usada, al igual que la programación orientada a objetos. Se utiliza en lenguajes muy conocidos como Java, C, Python y C++, que son los que permiten crear programas, juegos y aplicaciones que usamos todos los días.
+<hr>
+<h3 style="color: #FF0000;"> Variables</h3>
+Las variables son espacios en la memoria de la computadora donde se guardan datos. Dependiendo del lenguaje de programación, las variables pueden tener diferentes tipos y formas de uso.  
+
+<p>Existen dos formas principales de definir variables:</p>
+- Tipado estático: El tipo de variable se define al momento de declararla y no puede cambiar.
+<li>- Tipado dinámico: El tipo de variable se asigna automáticamente cuando el programa se ejecuta.</li>
+
+<p>Los tipos más comunes de variables son:</p>
+- Numéricas: Guardan números enteros como 5, 100 o -3.
+<li>- De punto flotante: Almacenan números con decimales, como 3.14 o -0.5.</li>
+- De caracteres: Representan símbolos o letras, como "A" o "!".
+<li>- De cadena de caracteres: Contienen palabras o frases, como "Hola, mundo".</li>
+- Booleanas: Solo pueden almacenar verdadero o falso.
+<hr>
+<h3 style="color: #FF0000;"> Estructuras de control</h3>
+Las estructuras de control permiten decidir qué instrucciones ejecutar y cuántas veces hacerlo.
+
+<p>1. Condiciones: if-else</p>
+Es la estructura más básica para tomar decisiones en un programa.
+<li>if:</li>
+    # Instrucciones si la condición es verdadera
+<li>else:</li>
+    # Instrucciones si la condición es falsa
+
+<p>2. Bucles: while</p>
+Se usa para repetir una acción mientras una condición sea verdadera.
+cantidad =
+while cantidad 10:
+    print(cantidad)
+    cantidad += 1
+Este código empieza con la variable cantidad en 1. Mientras cantidad sea menor que 10, se muestra en pantalla y se le suma 1. El resultado en pantalla sería:  
+`1 2 3 4 5 6 7 8 9`
+
+<p>3. Bucles: for</p>
+Permite repetir una acción un número determinado de veces.
+for cantidad in range(1, 10):
+    print(cantidad)
+Este código hace lo mismo que el while, pero en una forma más sencilla.
+<hr>
+<h3 style="color: #FF0000;">Funciones</h3>
+Las funciones son bloques de código que realizan una tarea específica y pueden reutilizarse muchas veces.  
+
+<p>Características:</p>
+<li>- Encapsulación: Agrupan instrucciones en una sola unidad.</li>
+- Reutilización: Se pueden llamar varias veces sin escribir el mismo código.
+<li>- Legibilidad: Hacen que el programa sea más fácil de entender.</li>
+- Mantenimiento: Facilitan la detección y corrección de errores.
+
+Ejemplo de función:
+def sumar(a, b):
+    return a + b
+
+resultado = sumar(5, 3)
+print("La suma es:", resultado)
+
+Salida:
+`La suma es: 8`
+<hr>
+<h3 style="color: #FF0000;">Modularidad</h3>
+La modularidad consiste en dividir un programa en partes más pequeñas llamadas módulos.
+
+<p>Ventajas:</p>
+<li>- Facilita la depuración: Si hay un error, se corrige sin afectar todo el código.</li>
+- Promueve la reutilización: Un módulo se puede usar en diferentes programas.
+<li>- Mejor organización: Hace que el código sea más fácil de entender y mejorar.</li>
+
+Ejemplo de modularidad:
+<li>
+def sumar(a, b):
+    return a + b
+
+def restar(a, b):
+    return a - b
+
+Luego, en otro archivo se pueden importar y usar estas funciones:
+import operaciones
+
+resultado = operaciones.sumar(10, 5)
+print("Suma:", resultado)
+
+resultado = operaciones.restar(10, 5)
+print("Resta:", resultado)
+Salida:
+`Suma: 15`
+`Resta: 5`</li>
+
+</body>
+</html>
